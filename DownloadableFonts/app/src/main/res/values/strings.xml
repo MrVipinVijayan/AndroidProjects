@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Downloadable fonts sample</string>
+    <string name="request">request</string>
+    <string name="invalid_family_name">Not a valid Family Name</string>
+    <string name="invalid_input">Invalid inputs exist</string>
+    <string name="family_name">Family Name</string>
+    <string name="weight">Weight</string>
+    <string name="width">Width</string>
+    <string name="italic">Italic</string>
+    <string name="best_effort">Best Effort (Nearest match)</string>
+    <string name="predefined_font">The pre-downloaded font is used for this part to avoid the overhead of the time until the requested font is downloaded. See "src/main/res/font" directory for usage.</string>
+    <string name="downloadable_font_applied_text">Downloadable Fonts Demo - CoderzHeaven.com</string>
+    <string name="request_failed">Font request failed with reason code: %1$d</string>
+</resources>
