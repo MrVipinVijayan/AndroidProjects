@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.coderzheaven.databackupdemo">
+
+    <application
+        android:allowBackup="true"
+        android:backupAgent="data_backup_demo.coderzheaven.com.databackupdemo.DemoBackUpAgent"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="data_backup_demo.coderzheaven.com.databackupdemo.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data android:name="com.google.android.backup.api_key"
+            android:value="AEdPqrEAAAAIIOrdswuHXMDSVQrLudj3vEUedTk0n29UVkB1Ew" />
+
+    </application>
+
+</manifest>
